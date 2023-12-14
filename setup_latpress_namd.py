@@ -1,5 +1,5 @@
-#!/usr/bin/python
-
+#!/usr/bin/env python2
+#SSchott
 import os, sys, glob, re, math
 import argparse, subprocess
 

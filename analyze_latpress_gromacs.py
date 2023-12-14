@@ -1,10 +1,10 @@
-#!/usr/bin/python
-
+#!/usr/bin/env python2
+#SSchott
 import os, sys, glob, re, math
 import argparse, subprocess
 import parmed as pmd
 
-explanation = "Script to setup lateral pressure profile calculations with NAMD from an AMBER equilibrium simulation."
+explanation = "Script to setup lateral pressure profile postprocessing with GROMACS."
 
 parser = argparse.ArgumentParser(prog="setup_latpress", description = explanation)
 parser.add_argument("-d","--dir",type=str, default="md/", help="path to directory with replicas ('01','02', and so on...).")
